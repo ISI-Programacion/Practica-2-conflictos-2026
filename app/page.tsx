@@ -25,7 +25,7 @@ export default function Home() {
       <section id="hero" className="flex flex-1 flex-col items-center justify-center p-8 text-center sm:p-16">
         <div className="max-w-2xl space-y-4">
           <span className="rounded-full bg-red-100 px-3 py-1 text-xs font-semibold text-red-800 dark:bg-red-950 dark:text-red-300">
-            Universidad del Valle
+            Universidad PRIVADA del Valle
           </span>
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl text-red-900 dark:text-red-500">
             Respuesta Científica al Futuro
