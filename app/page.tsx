@@ -12,7 +12,8 @@ export default function Home() {
             UNIVALLE <span className="text-xs bg-blue-950 px-2 py-1 rounded border border-blue-600 text-blue-200">Sunner</span>
           </div>
           <nav className="flex gap-4 text-sm font-medium">
-            <a href="#hero" className="hover:underline text-blue-100">Inicio</a>
+
+            <a href="#hero" className="hover:underline">Home</a>
             <a href="#carreras" className="hover:underline text-blue-100">Carreras</a>
             <a href="#contacto-sunner" className="hover:underline text-blue-100">Contacto Sunner</a>
           </nav>
