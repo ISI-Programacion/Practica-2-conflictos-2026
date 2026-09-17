@@ -13,8 +13,8 @@ export default function Home() {
           </div>
           <nav className="flex gap-4 text-sm font-medium">
             <a href="#hero" className="hover:underline">Home</a>
-            <a href="#carreras" className="hover:underline">Carreras</a>
-            <a href="#nosotros" className="hover:underline">Contacto Rodrigo</a>
+            <a href="#carreras" className="hover:underline">Carreras hhh</a>
+            <a href="#nosotros" className="hover:underline">Rodrigo cambio</a>
           </nav>
         </div>
       </header>
