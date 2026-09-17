@@ -7,14 +7,14 @@ export default function Home() {
       
       {/* SECCIÓN 1: HEADER / NAVEGACIÓN             */}
       <header className="w-full border-b border-red-800 bg-red-900 p-4 text-white">
-        <div className="mx-auto flex max-w-5xl items-center justify-between">
+       <div className="mx-auto flex max-w-5xl items-center justify-between">
           <div className="flex items-center gap-2 font-bold text-xl tracking-wide">
-            UNIVALLE
+            UNIVALLE <span className="text-xs bg-blue-950 px-2 py-1 rounded border border-blue-600 text-blue-200">Sunner</span>
           </div>
           <nav className="flex gap-4 text-sm font-medium">
-            <a href="#hero" className="hover:underline">Home</a>
-            <a href="#carreras" className="hover:underline">Carreras</a>
-            <a href="#nosotros" className="hover:underline">Contacto Rodrigo</a>
+            <a href="#hero" className="hover:underline text-blue-100">Inicio</a>
+            <a href="#carreras" className="hover:underline text-blue-100">Carreras</a>
+            <a href="#contacto-sunner" className="hover:underline text-blue-100">Contacto Sunner</a>
           </nav>
         </div>
       </header>
