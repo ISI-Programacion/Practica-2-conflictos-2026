@@ -12,9 +12,9 @@ export default function Home() {
             UNIVALLE
           </div>
           <nav className="flex gap-4 text-sm font-medium">
-            <a href="#hero" className="hover:underline">Inicio</a>
+            <a href="#hero" className="hover:underline">Home</a>
             <a href="#carreras" className="hover:underline">Carreras</a>
-            <a href="#nosotros" className="hover:underline">Nosotros</a>
+            <a href="#nosotros" className="hover:underline">Contacto Rodrigo</a>
           </nav>
         </div>
       </header>
