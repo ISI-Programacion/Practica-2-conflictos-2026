@@ -21,18 +21,23 @@ export default function Home() {
       </header>
 
       
-      {/* SECCIÓN 2: HERO / INICIO                   */}
-      <section id="hero" className="flex flex-1 flex-col items-center justify-center p-8 text-center sm:p-16">
+       {/* SECCIÓN 2: HERO / INICIO                   */}
+      <section id="hero" className="flex flex-1 flex-col items-center justify-center p-8 text-center sm:p-16 bg-blue-950/20">
         <div className="max-w-2xl space-y-4">
-          <span className="rounded-full bg-red-100 px-3 py-1 text-xs font-semibold text-red-800 dark:bg-red-950 dark:text-red-300">
-            Universidad del Valle
+          <span className="rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-800 dark:bg-blue-950 dark:text-blue-300 border border-blue-800/40">
+            Campus Sucre — Sunner Dev
           </span>
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl text-red-900 dark:text-red-500">
-            Respuesta Científica al Futuro
+          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl text-blue-600 dark:text-blue-400">
+            Liderazgo en Ciencia, Tecnología y Salud
           </h1>
           <p className="text-zinc-600 dark:text-zinc-400">
-            Formando profesionales de excelencia con visión global, tecnología de vanguardia e investigación.
+            Módulo interactivo de admisiones y campus virtual diseñado por Sunner.
           </p>
+          <div className="pt-2">
+            <a href="#carreras" className="inline-block rounded-lg bg-blue-700 px-5 py-2 text-sm font-semibold text-white hover:bg-blue-600 transition">
+              Explorar Carreras Sunner
+            </a>
+          </div>
         </div>
       </section>
 
