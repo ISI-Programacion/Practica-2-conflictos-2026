@@ -72,8 +72,10 @@ export default function Home() {
 
   
       {/* SECCIÓN 4: FOOTER / PIE DE PÁGINA          */}
-      <footer id="footer" className="border-t border-zinc-200 py-6 text-center text-xs text-zinc-500 dark:border-zinc-800 bg-blue-950/10">
-        <p>© 2026 Universidad del Valle — Módulo de Facultades desarrollado por: <strong>Sunner (Lead Dev)</strong></p>
+
+      <footer id="footer" className="border-t border-zinc-200 py-6 text-center text-xs text-zinc-500 dark:border-zinc-800">
+        <p>© 2026 Universidad del Valle — Desarrollado en Práctica 2 por: Los Nomos y asociados</p>
+
       </footer>
 
     </div>
